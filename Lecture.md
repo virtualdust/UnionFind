@@ -37,3 +37,8 @@
       int find(int p);
   }
   ```
+
+##二.QuickUnion
+
+并查集基本数据表示:
+![avatar](./1.png)
