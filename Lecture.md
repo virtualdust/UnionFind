@@ -416,10 +416,6 @@ private int find(int p) {
 
 ![avatar](/13.png)
 
-```
-至此，我们从一开始的 Quick Find 到 Quick Union优化，然后从 Quick Union 到基于 size 的优化，然后从基于size优化到基于rank优化，
-到最后的路径压缩优化，整个并查集的实现和优化就介绍完毕。
-```
 
 ## 并查集的时间复杂度
 
