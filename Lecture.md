@@ -18,6 +18,22 @@
 
 **isConnected** 判断两个元素是否属于同一集合。
 
+## 接口设计
+
+```java
+package com.ylvis.UnionFind;
+
+public interface UF {
+    int getSize();
+
+    boolean isConnected(int p, int q);
+
+    void unionElements(int p, int q);
+
+    int find(int p);
+}
+```
+
 ## 并查集的实现和优化
 
 ### Quick Find方式实现的并查集
